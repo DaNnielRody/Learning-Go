@@ -20,7 +20,7 @@ func main() {
 	/*
 		Caso eu queira alocar um novo valor, isso tem que ser feito assim:
 		Como o ptr é um endereço apontando para o ponteiro, tenho que alterar diretamente o seu dado. ptr = 3 não daria certo.
-		E mesmo se eu quiser imprimir, tenho que usar o asterisco, caso contrário ele vai continuar apontando para o endereço antigo.
+		E mesmo se eu quiser imprimir, tenho que usar o asterisco, caso contrário ele vai continuar apontando para o endereço.
 	*/
 	*ptr = 3
 	fmt.Println(ptr, *ptr)
@@ -35,6 +35,12 @@ func main() {
 	fmt.Println(*ip, *p)
 
 	// Resumindo:
-	fmt.Println("O endereço é:", p)     // Vemos o endereço porque p = &count (endereço da variável count).
-	fmt.Println("O valor de *p é:", *p) // Vemos o valor porque *p desreferencia p, dando o valor armazenado no endereço de count.
+	fmt.Println("O endereço é:", p)    // Vemos o endereço porque p = &count (endereço da variável count).
+	fmt.Println("O dado de *p é:", *p) // Vemos o valor porque *p desreferencia p, dando o valor armazenado no endereço de count.
+
+	// Prints
+
+	printing()
+	converting()
+	pack()
 }

@@ -7,5 +7,7 @@ M
 firststep/helloandpointers.go,3/0/30fa8abfa9afb9bdbb934c89567832c77e5f0bff
 U
 %katas/boolean/annalys_infiltration.go,c/0/c045ae9442b14b03de4f89678209a361f1906f08
-F
-firststep/variables.go,6/b/6b38294362fb3867b86858c9205631e14713293c
+E
+firststep/printing.go,e/9/e9e902f8336991229512492162bbad75ca445a9d
+D
+firststep/unicode.go,1/3/13235c60941e6682a8a978af0334ded867b89ec1
