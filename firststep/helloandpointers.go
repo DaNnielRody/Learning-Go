@@ -47,4 +47,7 @@ func main() {
 	switches()
 	//read()
 	slices()
+	//arrays()
+	mapT()
+	structs()
 }
