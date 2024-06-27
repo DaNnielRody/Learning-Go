@@ -46,4 +46,5 @@ func main() {
 	//forLoops()
 	switches()
 	//read()
+	slices()
 }
