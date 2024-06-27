@@ -43,4 +43,7 @@ func main() {
 	printing()
 	converting()
 	pack()
+	//forLoops()
+	switches()
+	//read()
 }

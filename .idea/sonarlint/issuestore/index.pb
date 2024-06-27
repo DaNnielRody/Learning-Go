@@ -9,5 +9,9 @@ U
 %katas/boolean/annalys_infiltration.go,c/0/c045ae9442b14b03de4f89678209a361f1906f08
 E
 firststep/printing.go,e/9/e9e902f8336991229512492162bbad75ca445a9d
-D
-firststep/unicode.go,1/3/13235c60941e6682a8a978af0334ded867b89ec1
+B
+firststep/basic.go,3/e/3e838416b3707d66b3c234948a5618752383ef2c
+K
+CourseraExecs/floatToInt.go,2/3/23dc6f324e2cd64027be049ea2b687fdb0d363e6
+Q
+!CourseraExecs/ianCaseSensitive.go,8/2/82557f690c18bacd592b67fc398996249e39324b
