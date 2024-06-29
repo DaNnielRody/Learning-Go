@@ -18,7 +18,7 @@ import (
 	"strings"
 )
 
-func main() {
+func sliceMain() {
 	slice := make([]int, 0, 3)
 	scanner := bufio.NewScanner(os.Stdin) // Essa entrada é como o Scanner scan = New Scanner(System.in) do Java
 
@@ -29,7 +29,7 @@ func main() {
 			Esses dois valores, correspondem ao scan.NextLine() do Java.
 			Enquando no Java esse comando já lê a entrada e a retorna com esse valor, o Go precisa primeiro ler a linha, e depois retorná-la.
 			Por isso scanner.Scan() -> para ler a linha
-			E scanner.Text() -> Para retornar como string
+			E scanner.Text() -> Para armazenar o valor da linha e retornar como string
 		*/
 		scanner.Scan()
 		input := scanner.Text()

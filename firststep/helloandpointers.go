@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"LearningGo/CourseraExecs"
+	_ "LearningGo/CourseraExecs"
+	"fmt"
+)
 
 /*
 Hello World e Ponteiros
@@ -49,5 +53,8 @@ func main() {
 	slices()
 	//arrays()
 	mapT()
-	structs()
+	//structs()
+	jsons()
+	//CourseraExecs.MakeJson()
+	CourseraExecs.Read()
 }

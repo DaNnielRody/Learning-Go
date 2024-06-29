@@ -17,7 +17,7 @@ func checkString(s string) bool {
 	return strings.HasPrefix(s, "i") && strings.HasSuffix(s, "n") && strings.Contains(s, "a")
 }
 
-func main() {
+func ianMain() {
 
 	var enteringString string
 
